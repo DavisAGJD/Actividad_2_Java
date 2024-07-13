@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicios JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Ejercicios JavaScript</h1>
+    </header>
+    <div class="container">
+        <!-- Ejercicio 1: Verificar Edad para Conducir -->
+        <div class="section">
+            <h2>Ejercicio 1: Verificar Edad para Conducir</h2>
+            <label for="edad">Introduce tu edad:</label>
+            <input type="number" id="edad">
+            <button onclick="verificarEdad()">Verificar</button>
+            <p id="resultadoEdad"></p>
+        </div>
+
+        <!-- Ejercicio 2: Calificación de la Nota -->
+        <div class="section">
+            <h2>Ejercicio 2: Calificación de la Nota</h2>
+            <label for="nota">Introduce tu nota:</label>
+            <input type="number" id="nota" step="0.1" min="0" max="10">
+            <button onclick="mostrarCalificacion()">Mostrar Calificación</button>
+            <p id="calificacion"></p>
+        </div>
+
+        <!-- Ejercicio 3: Concatenar Cadenas -->
+        <div class="section">
+            <h2>Ejercicio 3: Concatenar Cadenas de Texto</h2>
+            <input type="text" id="cadenaInput" placeholder="Introduce una cadena">
+            <button onclick="agregarCadena()">Agregar Cadena</button>
+            <button onclick="concatenarCadenas()">Concatenar Cadenas</button>
+            <p id="resultadoCadenas"></p>
+        </div>
+
+        <!-- Ejercicio 4: Calcular Letra de DNI -->
+        <div class="section">
+            <h2>Ejercicio 4: Calcular Letra de DNI</h2>
+            <label for="dni">Introduce tu número de DNI:</label>
+            <input type="text" id="dni">
+            <button onclick="calcularLetraDNI()">Calcular Letra</button>
+            <p id="letra"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
